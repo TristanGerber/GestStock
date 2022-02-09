@@ -5,12 +5,5 @@
              Title="{Binding Title}"
              xmlns:local="clr-namespace:GestStock.ViewModels"  
              xmlns:model="clr-namespace:GestStock.Models"  
-             x:Name="ScannerPage">
-    <StackLayout Spacing="10">
-        <Button Text="Click"  
-                x:Name="btnScan"  
-                Clicked="btnScan_Clicked"/>
-        <Entry x:Name="txtBarcode"  
-               Placeholder="Text Do scan"/>
-    </StackLayout>
+             x:Name="ScanItemsPage">
 </ContentPage>

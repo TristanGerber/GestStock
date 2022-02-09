@@ -26,11 +26,9 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\ne
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\GestStock.GeneratedMSBuildEditorConfig.editorconfig
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\GestStock.AssemblyInfoInputs.cache
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\GestStock.AssemblyInfo.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\GestStock.csproj.CoreCompileInputs.cache
@@ -39,3 +37,4 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\ne
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\ref\GestStock.dll
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\GestStock.pdb
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ScannerPage.xaml.g.cs
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\BorrowedItemsPage.xaml.g.cs

@@ -1288,10 +1288,7 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\android\assets\ZXing.Net.Mobile.Core.dll
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\android\assets\zxing.portable.dll
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\android\assets\ZXingNetMobile.dll
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\393c45b9-4660-4e68-926a-f3030f538545.jar
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\02d50943-a90a-4212-aa64-4488c7a5353b.cfg
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\61123ffa-72fe-4491-bc78-e008826c1872.txt
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_AndroidXJetifyProguardRules.stamp
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\_AndroidXJetifyProguardRules.jetify
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_AndroidXCecilfy.stamp
@@ -1304,3 +1301,6 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_AndroidXJetifyManifest.stamp
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\_AndroidXJetifyManifest.jetify
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_CopyIntermediateAssemblies.stamp
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\7a89058e-e1e6-46b7-8397-b3ec5f410e8c.jar
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\1d0d52fc-9552-461c-bba7-842a7f11c11d.cfg
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\cdd94190-b248-4ce1-b54e-7b041e9e54e5.txt

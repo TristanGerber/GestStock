@@ -16,8 +16,6 @@ namespace GestStock.ViewModels
         public Command LoadItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
-        private Image imageAvailible;
-        public Image ImageAvailible { get => imageAvailible; set => SetProperty(ref imageAvailible, value); }
         public ItemsViewModel()
         {
             Title = "Browse";
@@ -25,8 +23,6 @@ namespace GestStock.ViewModels
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
             ItemTapped = new Command<Item>(OnItemSelected);
-
-            AddItemCommand = new Command(OnAddItem);
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -66,11 +62,6 @@ namespace GestStock.ViewModels
                 SetProperty(ref _selectedItem, value);
                 OnItemSelected(value);
             }
-        }
-
-        private async void OnAddItem(object obj)
-        {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
         }
 
         async void OnItemSelected(Item item)
