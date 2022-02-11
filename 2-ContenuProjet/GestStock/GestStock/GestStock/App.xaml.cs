@@ -12,8 +12,7 @@ namespace GestStock
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
+            DatabaseStore.Init();
             MainPage = new AppShell();
         }
 

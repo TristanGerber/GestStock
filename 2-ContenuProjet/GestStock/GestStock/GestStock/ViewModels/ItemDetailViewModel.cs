@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using MySqlConnector;
+using GestStock.Services;
 
 namespace GestStock.ViewModels
 {
@@ -75,9 +76,9 @@ namespace GestStock.ViewModels
         {
             try
             {
-                Item item = await DataStore.GetItemAsync(itemId);
+                Item item = await DatabaseStore.GetItemAsync(itemId);
                 Id = item.Id;
-                Text = item.Text;
+                Text = item.Name;
                 Description = item.Description;
                 Borrowed = item.Borrowed;
                 State = "Emprunter";

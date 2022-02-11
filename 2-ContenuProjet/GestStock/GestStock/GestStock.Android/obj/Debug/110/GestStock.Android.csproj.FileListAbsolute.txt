@@ -1301,6 +1301,6 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_AndroidXJetifyManifest.stamp
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\_AndroidXJetifyManifest.jetify
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\stamp\_CopyIntermediateAssemblies.stamp
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\7a89058e-e1e6-46b7-8397-b3ec5f410e8c.jar
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\1d0d52fc-9552-461c-bba7-842a7f11c11d.cfg
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\cdd94190-b248-4ce1-b54e-7b041e9e54e5.txt
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\039328e3-8000-4962-9597-5f08b5075bd0.jar
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\e5b8b948-c893-4c0a-ab81-9c25873b422d.cfg
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\ef5ace69-98fc-4e83-ab67-a53931f61555.txt

@@ -5,10 +5,6 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 
-using MySql.Data.MySqlClient;
-
-using static GestStock.Services.MockDataStore;
-
 namespace GestStock.Droid
 {
     [Activity(Label = "GestStock", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]

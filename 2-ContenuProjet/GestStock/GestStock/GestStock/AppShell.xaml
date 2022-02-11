@@ -82,7 +82,7 @@
         <ShellContent Route="BorrowedItemsPage" ContentTemplate="{DataTemplate local:BorrowedItemsPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Browse" Icon="icon_feed.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Route="KindsPage" ContentTemplate="{DataTemplate local:KindsPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Scanner" Icon="icon_feed.png">
         <ShellContent Route="ScannerPage" ContentTemplate="{DataTemplate local:ScannerPage}" />

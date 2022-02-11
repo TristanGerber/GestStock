@@ -1,4 +1,5 @@
 ﻿using GestStock.Models;
+using GestStock.Services;
 using GestStock.Views;
 using System;
 using System.Collections.ObjectModel;
@@ -11,14 +12,14 @@ namespace GestStock.ViewModels
     public class ItemsViewModel : BaseViewModel
     {
         private Item _selectedItem;
-
+        private string categoryId;
+        public string CategoryId { get => categoryId; set => categoryId = value; }
         public ObservableCollection<Item> Items { get; }
         public Command LoadItemsCommand { get; }
-        public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Catalogue";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
@@ -32,7 +33,7 @@ namespace GestStock.ViewModels
             try
             {
                 Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
+                var items = await DatabaseStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
                     Items.Add(item);
