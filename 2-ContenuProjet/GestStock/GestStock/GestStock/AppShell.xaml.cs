@@ -11,7 +11,10 @@ namespace GestStock
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
+            Routing.RegisterRoute(nameof(ArticleDetailPage), typeof(ArticleDetailPage));
+            Routing.RegisterRoute(nameof(CategoriesPage), typeof(CategoriesPage));
+            Routing.RegisterRoute(nameof(ProductsPage), typeof(ProductsPage));
+            Routing.RegisterRoute(nameof(ArticlesPage), typeof(ArticlesPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

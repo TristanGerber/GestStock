@@ -28,7 +28,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\BorrowedItemsPage.xaml">
+    <Compile Update="Views\ArticlesPage.xaml.cs">
+      <DependentUpon>ArticlesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ArticleDetailPage.xaml.cs">
+      <DependentUpon>ArticleDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BorrowedArticlesPage.xaml.cs">
+      <DependentUpon>BorrowedArticlesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ProductsPage.xaml.cs">
+      <DependentUpon>ProductsPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\BorrowedArticlesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\CategoriesPage.xaml">
