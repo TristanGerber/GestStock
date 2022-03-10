@@ -41,3 +41,5 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\ne
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ArticleDetailPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\BorrowedArticlesPage.xaml.g.cs
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\BorrowDetailPage.xaml.g.cs
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock\obj\Debug\netstandard2.0\Views\ReturnDetailPage.xaml.g.cs

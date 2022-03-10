@@ -1,7 +1,10 @@
-﻿using GestStock.Views;
+﻿using GestStock.Services;
+using GestStock.Views;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace GestStock.ViewModels
@@ -9,16 +12,42 @@ namespace GestStock.ViewModels
     public class LoginViewModel : BaseViewModel
     {
         public Command LoginCommand { get; }
-
         public LoginViewModel()
         {
-            LoginCommand = new Command(OnLoginClicked);
+            LoginCommand = new Command(OnLoginClickedAsync);
         }
-
-        private async void OnLoginClicked(object obj)
+        public Action DisplayInvalidLoginPrompt;
+        private string username;
+        public string Username
         {
-            // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
-            await Shell.Current.GoToAsync($"//{nameof(BorrowedArticlesPage)}");
+            get { return username; }
+            set
+            {
+                username = value;
+                OnPropertyChanged("Username");
+            }
+        }
+        private string password;
+        public string Password
+        {
+            get { return password; }
+            set
+            {
+                password = value;
+                OnPropertyChanged("Password");
+            }
+        }
+        public async void OnLoginClickedAsync()
+        {
+            if (username == "")
+            {
+                DisplayInvalidLoginPrompt();
+            }
+            else
+            {
+                ConnectionBase.currentUser = username;
+                await Shell.Current.GoToAsync("//BorrowedArticlesPage");
+            }
         }
     }
 }

@@ -1304,6 +1304,7 @@ D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\res\drawable\stock.png
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\res\drawable\book.png
 D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\res\drawable\scanner.jpg
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\6e13fb2c-6cb0-4149-9f37-cb0165c9410a.jar
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\98d4390b-dab0-4a78-96c7-f1007edd3b0f.txt
-D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\ae6e706e-9643-43b1-8f7e-63703aae8d2e.cfg
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\jl\724fa23c-416a-4a6f-a995-ecf5bc1b98f0.jar
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\351427eb-f423-4988-ba96-d1b0360e0498.cfg
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\androidx\proguard\afdf8306-4afe-4f6d-97b4-cea0d068ec8c.txt
+D:\DATA\GestStock\www\2-ContenuProjet\GestStock\GestStock\GestStock.Android\obj\Debug\110\res\drawable\exit.png
