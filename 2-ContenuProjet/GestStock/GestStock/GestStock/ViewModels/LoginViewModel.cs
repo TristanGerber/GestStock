@@ -39,13 +39,13 @@ namespace GestStock.ViewModels
         }
         public async void OnLoginClickedAsync()
         {
-            if (username == "")
+            if (DatabaseStore.CheckUser(username))
             {
                 DisplayInvalidLoginPrompt();
             }
             else
             {
-                ConnectionBase.currentUser = username;
+                ConnectionBase.CurrentUser = username;
                 await Shell.Current.GoToAsync("//BorrowedArticlesPage");
             }
         }
