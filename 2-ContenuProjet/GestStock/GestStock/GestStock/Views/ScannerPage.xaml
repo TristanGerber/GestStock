@@ -3,7 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GestStock.Views.ScannerPage"
              Title="{Binding Title}"
-             xmlns:local="clr-namespace:GestStock.ViewModels"  
-             xmlns:model="clr-namespace:GestStock.Models"  
              x:Name="ScanItemsPage">
 </ContentPage>

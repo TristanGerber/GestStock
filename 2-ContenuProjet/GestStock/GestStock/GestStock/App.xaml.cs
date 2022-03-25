@@ -1,8 +1,10 @@
-﻿using GestStock.Services;
-using GestStock.Views;
-using System;
+﻿/* Developper : Tristan Gerber
+ * Place : ETML, N501
+ * Project creation date : 27.01.2022
+ * Last updated : 24.03.2022 */
+
+using GestStock.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace GestStock
 {
@@ -12,7 +14,11 @@ namespace GestStock
         public App()
         {
             InitializeComponent();
-            DatabaseStore.Init();
+
+            // Initializes the DatabaseStore
+            DatabaseStore.DatabaseStoreInit();
+
+            // Create the AppShell
             MainPage = new AppShell();
         }
 
